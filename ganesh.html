@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <img src="./images/titl.jpg"> -->
+    <script>
+        let myDiv=document.createElement("div");
+        document.body.appendChild(myDiv);
+        myDiv.style.height="550px";
+        myDiv.style.width="600px";
+        myDiv.style.backgroundImage="url('./phone_img/bg3.jpeg')"
+        myDiv.style.border="3px solid red";
+        let div1=document.createElement("div")
+        myDiv.appendChild(div1);
+        let img1=document.createElement("img");
+        img1.setAttribute("src","./images/titl.jpg");
+        img1.style.height="30px";
+        img1.style.marginTop="25px"
+        div1.appendChild(img1);
+        let hap=document.createElement("h1");
+        hap.innerHTML="HAPPY";
+        hap.style.color="orange"
+        div1.appendChild(hap);
+        let gan=document.createElement("h1");
+        gan.innerHTML="GANESH";
+        gan.style.color="blue"
+        div1.appendChild(gan);
+        let cha=document.createElement("h1");
+        cha.innerHTML="CHATURTHI";
+        cha.style.color="green"
+        div1.appendChild(cha);
+        let img2=document.createElement("img");
+        img2.setAttribute("src","./images/titl.jpg");
+        img2.style.height="30px";
+        img2.style.marginTop="25px";
+        div1.appendChild(img2);
+        div1.style.display="flex"
+        div1.style.justifyContent="space-evenly"
+        div1.style.margin="20px";
+        let img3=document.createElement("img");
+        img3.setAttribute("src","./images/ganesh.jpg");
+        img3.style.height="300px";
+        img3.style.marginLeft="140px";
+        myDiv.appendChild(img3);
+        let div2=document.createElement("div");
+        myDiv.appendChild(div2);
+        let hea2=document.createElement("h2");
+        hea2.innerHTML="Have a memorable time with family and friends";
+        hea2.style.color="green";
+        hea2.style.marginLeft="50px";
+        div2.appendChild(hea2);
+        let h3=document.createElement("h3");
+        h3.innerHTML="HAPPY GANESH CHATURTHI";
+        h3.style.marginLeft="150px";
+        h3.style.color="red"
+        div2.appendChild(h3);
+
+    </script>
+</body>
+</html>
